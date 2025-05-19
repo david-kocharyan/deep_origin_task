@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Streamlit logs and cache
+.streamlit/
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Python-related
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.pyd
+*.so
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Output and temp files
+*.tmp
+*.bak
+*.swp
+*.out
+
+# Notebooks (if you generate them temporarily)
+*.ipynb
+
+# MyPy and Pyright type check outputs
+.mypy_cache/
+.pyright/
+
+# Local development artifacts
+local_settings.py
+*.sqlite3
+
+# __pypackages__ per PEP 582
+__pypackages__/
